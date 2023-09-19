@@ -1,0 +1,436 @@
+
+
+/* ? BOJE ================
+
+   ? Crvena: #F72249
+   ? Crvena hover: #e62145
+   ? Teget: #0E1B4D
+   ? Pozadina sekcija: #F7F7FD
+   ? Footer: #030919
+   ? Copyright: #101522
+
+   ? ===================== */
+
+/*   * General =========================*/ 
+
+
+
+
+   /* * GENERAL ================================ */
+   
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    }
+    body{
+      height: 6000px;
+   }
+   h2 {
+      color: #0e1b4d;
+   }
+   .section-title{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .section-title h2{
+text-transform: uppercase;
+    }
+    .section-title p{
+      color: gray;
+    }
+    .custom-hr{
+      width: 60px;
+      height: 4px;
+      background-color: red;
+    }
+  .cta-btn{
+   background-color:#F72249 ;
+   border-radius: 100px;
+   color: #fff !important;
+   padding-left: .5rem 1.5rem !important;
+   font-weight: 500;
+   margin-left: .5rem;
+  }
+  .nav-bg{
+   background-color: rgba(36, 36, 158, 0.863);
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 100;
+  }
+.main-logo {
+   height: 20px;
+   width: auto;
+}
+.nav-bg .active{
+   border-bottom: 2px solid red;
+}
+a{
+   transition: all .3s;
+}
+a:hover{
+   transition: all .3s;
+}
+/** Hero Section ==================== */ 
+.hero-section {
+   background-image: url(/img/intro-bg.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 85vh;
+   position: relative;
+   z-index: 1;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-attachment: fixed;
+}
+.hero-dark {
+   width: 100%;
+   height: 100%;
+   background-color: #0e1b4d86;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 1;
+}
+.hero-content {
+   z-index: 5;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+.hero-section h1{
+   text-align: center;
+}
+.red-text {
+color: #F72249;
+}
+.hero-section p{
+   text-align: center;
+}
+.modal-btn {
+   background-color: #f72249;
+   border: none;
+   width: 50px;
+   height: 50px;
+   border-radius: 200px;
+}
+.border-btn{
+   width: 60px;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 0px 0px 5px #ffffff9a;
+   border-radius: 200px;
+   margin-bottom: 2rem;
+   margin-top: 1rem;
+}
+.outline-btn{
+   color: #fff;
+   border: 2px solid #f72249;
+   width: fit-content;
+   padding: .3rem 1.6rem;
+   border-radius: 100px;
+}
+.outline-btn:hover{
+   background-color: #f72249;
+   color: #fff;
+   text-decoration: none;
+}
+/* * About event section ========================= */
+
+.about-event-section{
+   background-image: url(/img/about-bg.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: relative;
+   color: #fff;
+   position: relative;
+   padding: 3rem 0px;
+background-attachment: fixed;
+}
+.about-event-section h2{
+   color: #fff;
+}
+.about-event-section p{
+   margin-bottom: 0px;
+}
+.about-dark{
+   width: 100%;
+   height: 100%;
+   background-color: rgba(13, 20, 41,0.8);
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+/* * Event speakers =============================*/
+.event-speakers-section{
+   margin: 3.5rem 0px;
+}
+
+
+.event-card {
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 220px;
+   width: 100%;
+   color: #fff;
+   position: relative;
+   overflow: hidden;
+}
+.event-card-title {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: rgba(6, 12, 34, 0.76);
+   padding: .9rem;
+   position: absolute;
+   left: 0;
+   bottom: -43px;
+   width: 100%;
+   transition: all .4s;
+}
+.event-card-title a{
+   color: #fff;
+}
+.event-card-title a:hover{
+   color: #f72249;
+   text-decoration: none;
+}
+.event-card-title h6{
+   margin-bottom: 0px;
+   font-size: 1.1rem;
+}
+.event-card-title i{
+   font-size: .8rem;
+   
+}
+.event-card-title svg{
+   margin: 0px .15rem;
+}
+.event-card:hover .event-card-title {
+ bottom: 0px;
+ transition: all .4s;
+}
+
+/* * event section ===================*/
+.event-section{
+   background-color:#f7f7fd ;
+   padding: 3.5rem 0px;
+}
+
+.event-item{
+   margin-top: rem;
+}
+.event-section .nav-pills .nav-link{
+border-radius: 100px;
+padding: .4rem 5rem;
+background-color: #0e1b4d;
+color: #fff;
+margin: 0px .4rem;
+transition: all .4s;
+}
+.event-section .nav-link.active{
+background-color: #f72249;
+
+}
+.event-section .nav-link:hover{
+   background-color: #23378b;
+   transition: all .4s;
+}
+.event-section i{
+   color: grey;
+}
+.event-section .list-group-item{
+   background-color: transparent;
+}
+.event-item .event-img{
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 50px ;
+height: 50px;
+border-radius: 100px;
+margin-right: .4rem;
+margin-left: 1.5rem;
+}
+.event-item .list-group-item{
+   display: flex;
+   align-items: center;
+   transition: all.4s;
+   padding: 1.1rem .6rem;
+}
+.event-item .list-group-item:hover{
+   background-color: #fff;
+   transition: all .4s;
+}
+.event-item h6{
+   margin-bottom: .1rem;
+   color:black;
+}
+.event-item i{
+   font-size: .9rem;
+}
+.event-item h6 i{
+   color: #1734a9;
+   font-weight: 400;
+}
+.event-item .list-group-item:hover{
+   color: black;
+   transition: .4s;
+   padding: 1.1rem 0px;
+}
+/** Event gallery =============*/
+.gallery-top-img{
+   background-image: url(/img/venue-info-bg.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 100%;
+   color: #fff;
+   position: relative;
+   padding: 3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.bg-darken{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   left: 0;
+   top: 0;
+   background-color: rgba(13, 20, 41, 0.8);
+   z-index: 0;
+}
+.gallery-small-img{
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: 190px;
+   transition: all .4s;
+}
+.gallery-small-img:hover{
+   background-size: 120%;
+   transition: all .4s;
+}
+.event-gallery [class^="col-"]{
+   padding: 2px;
+}
+/* * Hotel IMG */
+.hotel-section{
+   background-color: #f7f7fd;
+   padding: 3.5rem 0px;
+}
+.hotel-img{
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: 220px;
+   transition: all .4s;
+}
+.hotel-card{
+   background-color: #fff;
+   width: 100%;
+   height: fit-content;
+   border:1px solid #f0f0f0
+}
+.hotel-card-body {
+   padding: 1rem;
+}
+.hotel-card:hover .hotel-img{
+   background-size: 120%;
+   transition: all .4s
+}
+/* Galery section */
+
+.gallery-section .nav-link{
+   color: #0e1b4d;
+
+}
+.gallery-section .nav-link.active{
+   background-color: transparent;
+   color:#F72249;
+   font-weight: 500;
+}
+
+.gallery-img{
+   height: 220px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   padding: 1rem;
+   overflow: hidden;
+}
+.gallery-img .img-hover{
+   width: 100%;
+   background-color: rgba(13, 20, 41, 0.8);
+   color: #fff;
+   padding: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+   top: -100px; 
+}
+.gallery-img:hover .img-hover{
+   top: 0px;
+   transition: all .4s;
+}
+.gallery-img  .img-hover h6,p{
+margin: 0;
+}
+.gallery-img .img-hover p{
+   font-size: .8rem;
+}
+.gallery-img .img-hover a{
+   color: #fff;
+}
+.gallery-img .img-hover a:hover{
+   color: #F72249;
+}
+
+/* * SPONSORS */
+.sponsors-section {
+   background-color: #f6f7fd;
+   padding: 3.5rem 0px;
+}
+
+
+.support-logo{
+   width: 100%;
+   height: 130px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-right: 1px solid #ebebeb;
+   border-bottom: 1px solid #ebebeb;
+   padding: 1rem;
+}
+.support-logo img{
+   transition: 0.5s;
+}
+.support-logo:hover img{
+transform: scale(1.2);
+transition: all .5s;
+}
+.sponsors-section .row-border{
+   border-top: 1px solid #f0f0f0;
+   border-left: 1px solid #f0f0f0;
+   background-color: #fff;
+}
